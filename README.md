@@ -16,14 +16,14 @@
 * [Acesso ao Projeto](#acesso-ao-projeto)
 
 # Descrição Do Projeto
-. Sistema em java visando auxiliar e demonstrar para adolescentes,
-.
-.
-.
+. Sistema em java visando auxiliar e demonstrar para adolescentes
+
+
 # Pré-Requisitos
-- Linguagem Usada: Java With Ant
+- Linguagem Usada: Java
 - IDE Utilizada: Netbeans
-- Banco De Dados: MySQL Workbench
+- Banco De Dados: MySQL Online
+- Redes De Computadores: Cisco Packet Tracker
 
 
 # Autores Do Projeto
@@ -32,8 +32,8 @@
 | 234853   | Guilherme Mendes    | mendesalcantara27@gmail.com       |
 | 236253   | Lucas Nunes   | lmelare8@gmail.com      |
 | 190437   | Lucas Pontes  | luska.pontes.freitas@hotmail.com      |
-| 789012   | Maria Souza   | maria@example.com      |
-| 345678   | Pedro Santos  | pedro@example.com      |
+| 236441   | Gustavo Marum   | gugapolo15@gmail.com      |
+| 2222216  | Renan Zanollo  | renanzamorim008@gmail.com    |
 
 
 
