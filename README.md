@@ -1,4 +1,4 @@
-#![Dp3nCCdXgAEIMxM](https://github.com/Upx-II-Error404/Project-Upx-II/assets/141426925/7c1d439b-3c2e-407f-85ff-a003c8304f52)
+![Dp3nCCdXgAEIMxM](https://github.com/Upx-II-Error404/Project-Upx-II/assets/141426925/7c1d439b-3c2e-407f-85ff-a003c8304f52)
  # Project-Upx-II- Error404
 
 
@@ -16,7 +16,7 @@
 * [Acesso ao Projeto](#acesso-ao-projeto)
 
 # Descrição Do Projeto
-.
+. Sistema em java visando auxiliar e demonstrar para adolescentes,
 .
 .
 .
@@ -27,10 +27,13 @@
 
 
 # Autores Do Projeto
-- Guilherme Mendes
--- mendesalcantara27@gmail.com RA: 234853
-- Gustavo Pereira
-  Lucas Pontes
-   Lucas Nunes
-  -- Renan Zanollo
-  --
+| RA       | Nome          | Email                  |
+|----------|---------------|------------------------|
+| 234853   | Guilherme Mendes    | mendesalcantara27@gmail.com       |
+| 236253   | Lucas Nunes   | lmelare8@gmail.com      |
+| 190437   | Lucas Pontes  | luska.pontes.freitas@hotmail.com      |
+| 789012   | Maria Souza   | maria@example.com      |
+| 345678   | Pedro Santos  | pedro@example.com      |
+
+
+
