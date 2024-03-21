@@ -16,7 +16,7 @@
 * [Acesso ao Projeto](#acesso-ao-projeto)
 
 # Descrição Do Projeto
-Sistema em java, criado para ensinar e auxiliar adolescentes, mostrando como a matemática aprendida em cada ano da escola é usada no dia a dia de forma divertida
+Sistema em java, criado para ensinar e auxiliar adolescentes, mostrando como a matemática aprendida em cada ano da escola é usada no dia a dia de forma interativa 
 
 
 # Pré-Requisitos
