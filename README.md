@@ -1,4 +1,6 @@
-![Dp3nCCdXgAEIMxM](https://github.com/Upx-II-Error404/Project-Upx-II/assets/141426925/7c1d439b-3c2e-407f-85ff-a003c8304f52)
+
+<img width="128" alt="534372" src="https://github.com/Upx-II-Error404/Project-Upx-II/assets/141426925/77ee48f8-1a48-4850-a603-2343d731366a">
+
  # Project-Upx-II- Error404
 
 
@@ -16,7 +18,8 @@
 * [Acesso ao Projeto](#acesso-ao-projeto)
 
 # Descrição Do Projeto
-Sistema em java, criado para ensinar e auxiliar adolescentes, mostrando como a matemática aprendida em cada ano da escola é usada no dia a dia de forma interativa 
+Sistema em java, criado com o intuito  de ser um controle financeiro, com função de ajudar a calcular as despesas para fazer com que o usuário administre melhor seu dinheiro
+e auxiliando com dicas de investimento.
 
 
 # Pré-Requisitos
