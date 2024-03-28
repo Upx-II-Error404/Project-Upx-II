@@ -29,11 +29,11 @@ e auxiliando com dicas de investimento.
 - Redes De Computadores: Cisco Packet Tracker
   
 # Implantações
-Compilação do código fonte
-Instação do sistema
-Testes de implantação
-Monitoramento e Manutenção
-Suporte para usuários
+- Compilação do código fonte
+- Instação do sistema
+- Testes de implantação
+- Monitoramento e Manutenção
+- Suporte para usuários
 
 # Versionamento
 Projeto Fase: Sistema Financeiro versão: Base 1.0
