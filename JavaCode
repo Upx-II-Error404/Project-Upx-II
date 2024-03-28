@@ -1,97 +1,77 @@
-import java.util.ArrayList;
-import java.util.Random;
 import java.util.Scanner;
 
-class Pergunta {
-    private String enunciado;
-    private String resposta;
-    private String opcaoA;
-    private String opcaoB;
-    private String opcaoC;
-    private String opcaoD;
-
-    public Pergunta(String enunciado, String resposta, String opcaoA, String opcaoB, String opcaoC, String opcaoD) {
-        this.enunciado = enunciado;
-        this.resposta = resposta;
-        this.opcaoA = opcaoA;
-        this.opcaoB = opcaoB;
-        this.opcaoC = opcaoC;
-        this.opcaoD = opcaoD;
+public class CarteiraDigital {
+    private double saldo;
+    private double ganhos;
+    private double gastos;
+    
+    public CarteiraDigital() {
+        this.saldo = 0.0;
+        this.ganhos = 0.0;
+        this.gastos = 0.0;
     }
-
-    public String getEnunciado() {
-        return enunciado;
+    
+    public void registrarGanhos(double valor) {
+        this.saldo += valor;
+        this.ganhos += valor;
     }
-
-    public String getResposta() {
-        return resposta;
-    }
-
-    public String getOpcaoA() {
-        return opcaoA;
-    }
-
-    public String getOpcaoB() {
-        return opcaoB;
-    }
-
-    public String getOpcaoC() {
-        return opcaoC;
-    }
-
-    public String getOpcaoD() {
-        return opcaoD;
-    }
-}
-
-class SistemaPerguntas {
-    private ArrayList<Pergunta> perguntas;
-
-    public SistemaPerguntas() {
-        this.perguntas = new ArrayList<>();
-        // Adicione aqui as perguntas sobre porcentagens e regra de três
-        perguntas.add(new Pergunta("Qual é 20% de 50?",
-                                   "D", "10", "20", "25", "30"));
-        perguntas.add(new Pergunta("Se 4 máquinas produzem 100 peças em 5 horas, quantas peças 8 máquinas produzirão em 6 horas?",
-                                   "A", "128", "150", "160", "200"));
-    }
-
-    public Pergunta getPerguntaAleatoria() {
-        Random random = new Random();
-        int indice = random.nextInt(perguntas.size());
-        return perguntas.get(indice);
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        SistemaPerguntas sistema = new SistemaPerguntas();
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Bem-vindo ao Quiz de Matemática!");
-        System.out.println("Responda às seguintes perguntas: \n");
-
-        int pontuacao = 0;
-
-        for (int i = 0; i < 2; i++) {
-            Pergunta pergunta = sistema.getPerguntaAleatoria();
-            System.out.println(pergunta.getEnunciado());
-            System.out.println("A) " + pergunta.getOpcaoA());
-            System.out.println("B) " + pergunta.getOpcaoB());
-            System.out.println("C) " + pergunta.getOpcaoC());
-            System.out.println("D) " + pergunta.getOpcaoD());
-            System.out.print("Escolha a opção correta (A, B, C ou D): ");
-
-            String respostaUsuario = scanner.nextLine().toUpperCase();
-            if (respostaUsuario.equals(pergunta.getResposta())) {
-                System.out.println("Resposta correta!");
-                pontuacao++;
-            } else {
-                System.out.println("Resposta incorreta. A resposta correta é: " + pergunta.getResposta());
-            }
-            System.out.println();
+    
+    public void registrarGastos(double valor) {
+        if (valor > this.saldo) {
+            System.out.println("Saldo insuficiente para realizar essa transação.");
+        } else {
+            this.saldo -= valor;
+            this.gastos += valor;
         }
-
-        System.out.println("Pontuação final: " + pontuacao + " de 2");
+    }
+    
+    public double getSaldo() {
+        return saldo;
+    }
+    
+    public double getGanhos() {
+        return ganhos;
+    }
+    
+    public double getGastos() {
+        return gastos;
+    }
+    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        CarteiraDigital carteira = new CarteiraDigital();
+        
+        while (true) {
+            System.out.println("Escolha uma opção:");
+            System.out.println("1. Registrar ganhos");
+            System.out.println("2. Registrar gastos");
+            System.out.println("3. Ver saldo, ganhos e gastos do mês");
+            System.out.println("4. Sair");
+            int opcao = scanner.nextInt();
+            
+            switch (opcao) {
+                case 1:
+                    System.out.println("Informe o valor dos ganhos:");
+                    double ganhos = scanner.nextDouble();
+                    carteira.registrarGanhos(ganhos);
+                    break;
+                case 2:
+                    System.out.println("Informe o valor dos gastos:");
+                    double gastos = scanner.nextDouble();
+                    carteira.registrarGastos(gastos);
+                    break;
+                case 3:
+                    System.out.println("Saldo do mês: " + carteira.getSaldo());
+                    System.out.println("Total de ganhos do mês: " + carteira.getGanhos());
+                    System.out.println("Total de gastos do mês: " + carteira.getGastos());
+                    break;
+                case 4:
+                    System.out.println("Encerrando o programa...");
+                    scanner.close();
+                    System.exit(0);
+                default:
+                    System.out.println("Opção inválida. Por favor, escolha uma opção válida.");
+            }
+        }
     }
 }
