@@ -27,7 +27,18 @@ e auxiliando com dicas de investimento.
 - IDE Utilizada: Netbeans
 - Banco De Dados: MySQL Online
 - Redes De Computadores: Cisco Packet Tracker
+- 
+# Implantações
+Compilação do código fonte
+Instação do sistema
+Testes de implantação
+Monitoramento e Manutenção
+Suporte para usuários
 
+# Versionamento
+Projeto Fase: Sistema Financeiro versão: 1.0
+
+# Descrição Do Projeto
 
 # Autores Do Projeto
 | RA       | Nome          | Email                  |
