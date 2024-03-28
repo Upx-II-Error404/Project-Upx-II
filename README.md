@@ -39,16 +39,16 @@ e auxiliando com dicas de investimento.
 Projeto Fase: Sistema Financeiro versão: Base 1.0
 
 # Estrutura Do Projeto
-public class CarteiraDigital: Classe principal do sistema de controle financeiro.
-private double saldo: Atributo para armazenar o saldo da carteira digital.
-private double ganhos: Atributo para armazenar o total de ganhos registrados.
-private double gastos: Atributo para armazenar o total de gastos registrados.
-public CarteiraDigital(): Construtor da classe CarteiraDigital.
-public void registrarGanhos(double valor): Método para registrar ganhos na carteira digital.
-public void registrarGastos(double valor): Método para registrar gastos na carteira digital.
-public double getSaldo(): Método para obter o saldo atual da carteira digital.
-public double getGanhos(): Método para obter o total de ganhos registrados na carteira digital.
-public double getGastos(): Método para obter o total de gastos registrados na carteira digital.
+-public class CarteiraDigital: Classe principal do sistema de controle financeiro.
+-private double saldo: Atributo para armazenar o saldo da carteira digital.
+-private double ganhos: Atributo para armazenar o total de ganhos registrados.
+-private double gastos: Atributo para armazenar o total de gastos registrados.
+-public CarteiraDigital(): Construtor da classe CarteiraDigital.
+-public void registrarGanhos(double valor): Método para registrar ganhos na carteira digital.
+-public void registrarGastos(double valor): Método para registrar gastos na carteira digital.
+-public double getSaldo(): Método para obter o saldo atual da carteira digital.
+-public double getGanhos(): Método para obter o total de ganhos registrados na carteira digital.
+-public double getGastos(): Método para obter o total de gastos registrados na carteira digital.
 
 # Autores Do Projeto
 | RA       | Nome          | Email                  |
