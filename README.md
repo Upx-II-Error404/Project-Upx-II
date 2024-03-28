@@ -27,7 +27,7 @@ e auxiliando com dicas de investimento.
 - IDE Utilizada: Netbeans
 - Banco De Dados: MySQL Online
 - Redes De Computadores: Cisco Packet Tracker
-- 
+  
 # Implantações
 Compilação do código fonte
 Instação do sistema
