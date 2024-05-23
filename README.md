@@ -1,5 +1,4 @@
 
-<img width="128" alt="534372" src="https://github.com/Upx-II-Error404/Project-Upx-II/assets/141426925/77ee48f8-1a48-4850-a603-2343d731366a">
 
  # Project-Upx-II- Error404
 
@@ -38,16 +37,17 @@ e auxiliando com dicas de investimento.
 - Sistema Financeiro versão: Base 1.0
 
 # Estrutura Do Projeto
-- public class CarteiraDigital: Classe principal do sistema de controle financeiro.
-- private double saldo: Atributo para armazenar o saldo da carteira digital.
-- private double ganhos: Atributo para armazenar o total de ganhos registrados.
-- private double gastos: Atributo para armazenar o total de gastos registrados.
-- public CarteiraDigital(): Construtor da classe CarteiraDigital.
-- public void registrarGanhos(double valor): Método para registrar ganhos na carteira digital.
-- public void registrarGastos(double valor): Método para registrar gastos na carteira digital.
-- public double getSaldo(): Método para obter o saldo atual da carteira digital.
-- public double getGanhos(): Método para obter o total de ganhos registrados na carteira digital.
-- public double getGastos(): Método para obter o total de gastos registrados na carteira digital.
+- Classe Principal (SaveCoin)
+- Atributos:
+- double saldo.
+- Map<String, List<Transacao>> transacoes
+  - Classe (Transação)
+- double valor
+- public void registrarGanhos(double valor): Método para registrar ganhos.
+- public void registrarGastos(double valor): Método para registrar gastos.
+- public double getSaldo(): Método para obter o saldo atual.
+- public double getGanhos(): Método para obter o total de ganhos.
+- public double getGastos(): Método para obter o total de gastos.
 
 # Autores Do Projeto
 | RA       | Nome          | Email                  |
@@ -58,5 +58,10 @@ e auxiliando com dicas de investimento.
 | 236441   | Gustavo Marum   | gugapolo15@gmail.com      |
 | 2222216  | Renan Zanollo  | renanzamorim008@gmail.com    |
 
+
+
+
+# Figma do projeto
+![e4840299-cbfa-44e6-97f1-117b490029fa](https://github.com/Upx-II-Error404/Project-Upx-II/assets/141426925/bbba1fb4-70ae-435d-ab0d-f37b28f58562)
 
 
